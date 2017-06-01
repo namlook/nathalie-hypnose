@@ -3451,14 +3451,10 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 560px) {
 
 		.panel.spotlight .content {
 			min-height: 30rem;
-		}
-
-		.panel {
-			color: #fff;
 		}
 
 		#nath-photo {
@@ -3466,11 +3462,23 @@
 		}
 
 		#nath-photo img {
-			width: 150%;
+			width: 100%;
 			opacity: 0.8;
 		}
+	}
 
 
+	@media screen and (max-width: 480px) {
+		.panel .content, .panel.spotlight .content, .panel > .intro.joined, .inner.columns.divided {
+			padding-right: 20%;
+		}
+		#contact-infos {
+			padding: 10%
+		}
+	}
+
+	.panel {
+		color: #fff;
 	}
 
 /* Page Wrapper */
