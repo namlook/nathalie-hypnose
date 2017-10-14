@@ -1,0 +1,53 @@
+@media screen and (min-width: 1200px) {
+    #wrapper {
+        margin: 0 30% 5rem 30%;        
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #wrapper {
+        margin: 0 20% 5rem 20%;        
+    }
+}
+    
+
+
+@media screen and (max-width: 560px) {
+    
+
+    .panel.spotlight .content {
+        min-height: 30rem;
+    }
+
+    #nath-photo {
+        background: #000;
+    }
+
+    #nath-photo img {
+        width: 100%;
+        opacity: 0.8;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #wrapper {
+        box-shadow: none;
+        margin: 0;   
+    }
+
+    #page-wrapper {
+        padding: 0;
+    }
+
+    .panel .content, .panel.spotlight .content, .panel > .intro.joined, .inner.columns.divided {
+        padding-right: 20%;
+    }
+    #contact-infos {
+        padding: 10%
+    }
+}
+
+
+  
