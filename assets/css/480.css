@@ -4,7 +4,12 @@
 }
 
 #wrapper {
-    width: 100%
+    width: 100%;
+    /* max-width: 800px; */
+}
+
+.qui-suis-je .nath-in-title {
+    display: none;
 }
 
 
@@ -12,7 +17,12 @@
 
 @media screen and (min-width: 1000px) {
     #wrapper {
-        margin: 0 20% 5rem 20%;        
+        margin: 0 10% 5rem 10%;        
+    }
+}
+@media screen and (max-width: 1000px) {
+    #wrapper {
+        margin: 0;
     }
 }
 
@@ -21,7 +31,7 @@
         font-size : 2.5rem;
     }
     #wrapper {
-        margin: 0 25% 5rem 25%; 
+        margin: 0 15% 5rem 15%; 
     }
 }
 
@@ -30,12 +40,33 @@
         margin-top: 2rem;
     }
     #wrapper {
-        margin: 0 30% 5rem 30%;        
+        margin: 0 20% 5rem 20%;
     }
 }
 
 
 @media screen and (max-width: 700px) {
+    .qui-suis-je .content {
+        flex: 100% !important;
+    }
+    .qui-suis-je .image {
+        display: none;
+        flex: 0%;
+    }
+
+    .qui-suis-je .nath-in-title {
+        display:block;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    .qui-suis-je h2.major {
+        margin-top: 30px
+    }
+
     img.ventre {
         width: 120%!important
     }

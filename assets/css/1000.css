@@ -455,10 +455,11 @@
 
     .panel.banner .content {
         padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
-        -moz-flex-basis: 60%;
+        /* -moz-flex-basis: 60%;
         -webkit-flex-basis: 60%;
         -ms-flex-basis: 60%;
-        flex-basis: 60%;
+        flex-basis: 60%; */
+        flex: 60%;
     }
 
     .panel.banner .content > .actions:last-child {
@@ -466,10 +467,11 @@
     }
 
     .panel.banner .image {
-        -moz-flex-basis: 40%;
+        /* -moz-flex-basis: 40%;
         -webkit-flex-basis: 40%;
         -ms-flex-basis: 40%;
-        flex-basis: 40%;
+        flex-basis: 40%; */
+        flex: 40%;
     }
 
     .panel.spotlight .content {
