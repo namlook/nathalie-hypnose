@@ -1,0 +1,166 @@
+
+.content.ventre {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)) !important
+}
+
+#wrapper {
+    width: 100%;
+    /* max-width: 800px; */
+}
+
+.qui-suis-je .nath-in-title {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+    #wrapper {
+        margin: 0 10% 5rem 10%;        
+    }
+}
+@media screen and (max-width: 1000px) {
+    #wrapper {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size : 2.5rem;
+    }
+    #wrapper {
+        margin: 0 15% 5rem 15%; 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #page-wrapper {
+        margin-top: 2rem;
+    }
+    #wrapper {
+        margin: 0 20% 5rem 20%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .qui-suis-je .content {
+        flex: 100% !important;
+    }
+    .qui-suis-je .image {
+        display: none;
+        flex: 0%;
+    }
+
+    .qui-suis-je .nath-in-title {
+        display:block;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        width: 100px;
+        border-radius: 100%;
+    }
+
+    .qui-suis-je h2.major {
+        margin-top: 30px
+    }
+
+    img.ventre {
+        width: 120%!important
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img.ventre {
+        width: 150%!important
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    
+    #page-wrapper {
+        padding: 0;
+    }
+
+    #wrapper {
+        box-shadow: none;
+        margin: 0;   
+    }
+
+    .panel.spotlight .content {
+        min-height: 30rem;
+    }
+
+    #nath-photo {
+        background: #000;
+    }
+
+    #nath-photo img {
+        width: 100%;
+        opacity: 0.8;
+    }
+
+    img.ventre {
+        width: 150%!important
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    #wrapper {
+        box-shadow: none;
+        margin: 0;   
+    }
+
+    #page-wrapper {
+        padding: 0;
+    }
+
+    /* .panel .content, .panel.spotlight .content, .panel > .intro.joined, .inner.columns.divided {
+        padding-right: 10%;
+    } */
+    #contact-infos {
+        padding: 10%
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    
+    #wrapper {
+        box-shadow: none;
+        margin: 0;   
+    }
+
+    #page-wrapper {
+        padding: 0;
+    }
+
+    /* .panel .content, .panel.spotlight .content, .panel > .intro.joined, .inner.columns.divided {
+        padding-right: 20%;
+    } */
+    #contact-infos {
+        padding: 10%
+    }
+
+    .span-5 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size : 2rem;
+    }
+    .lotus-titre {
+        flex-basis: 75%!important
+    }
+}
+    
+
+  
